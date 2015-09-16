@@ -71,11 +71,29 @@ h2 {
 	font-size: 10px;
 }
 
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
 .logo:hover {
 	text-decoration:none;
 }
 
 .about {
 	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-	
+}
+
+.modal {
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+h2 span {
+	font-family: 'allerregular', sans-serif;
+	color: #ababab;
+}
+
+::selection {
+	background-color: #BD1515;
 }
