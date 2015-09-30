@@ -1,5 +1,5 @@
 <h2>
-  <span>SPLURTY / No. <%= @quote.unique_tag %></span>
+  <span>SPLURTY / No. <%= link_to @quote.unique_tag, quote_path(@quote.id) %></span>
   Only the best <i>Interstellar</i> quotes live here!
 </h2>
 
